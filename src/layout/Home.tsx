@@ -4,8 +4,8 @@ export default function Home() {
   const icons = getIcons();
   return (
     <>
-      <div className="flex flex-col items-center text-text gap-10 w-full">
-        <img src={icons.logo} alt="logo" />
+      <div className="flex flex-col items-center text-text gap-5 w-full pb-25 mb:pb-0 md:gap-1 ">
+        <img src={icons.logo} alt="logo"  className="w-[9rem] md:w-[12rem]"/>
         <Counter />
         <div className="flex gap-5 w-full items-center justify-center">
           <input type="text" placeholder="Task" className="border border-input rounded-[8px] w-[80%] px-3 py-2"/>

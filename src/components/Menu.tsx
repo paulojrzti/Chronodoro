@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <>
       <nav className="w-screen flex justify-center absolute bottom-0">
-        <ul className="flex items-center justify-center gap-15 bg-nav h-auto w-[70%] rounded-t-[22px] p-8">
+        <ul className="flex items-center justify-center gap-15 bg-nav h-auto md:w-[35%] w-screen rounded-t-[22px] p-8">
           <li>
             <button className="bg-text rounded-[8px] p-2">
               <img src={icons.home} alt="home" />
