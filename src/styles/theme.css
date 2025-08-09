@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@layer theme {
+  @theme {
+    /* Paleta Dark */
+    --color-bg-dark: #1E1E1E;
+    --color-text-dark: #D4D4D4;
+    --color-nav-dark: #2B2B2B;
+    --color-input-dark: #D4D4D4;
+    --color-rest-dark: #FFCC00;
+    --color-finish-dark: #70E03C;
+    --color-remove-dark: #FF0000;
+    --color-heading-table-dark: #D9D9D9;
+
+    /* Paleta Light */
+    --color-bg-light: #FFFFFF;
+    --color-text-light: #5D5B5B;
+    --color-nav-light: #EAEAEA;
+    --color-input-light: #5D5B5B;
+    --color-rest-light: #FFCC00;
+    --color-finish-light: #70E03C;
+    --color-remove-light: #FF0000;
+    --color-heading-table-light: #5D5B5B;
+
+    
+    --color-bg: var(--color-bg-dark);
+    --color-text: var(--color-text-dark);
+    --color-nav: var(--color-nav-dark);
+    --color-input: var(--color-input-dark);
+    --color-rest: var(--color-rest-dark);
+    --color-finish: var(--color-finish-dark);
+    --color-remove: var(--color-remove-dark);
+    --color-heading-table: var(--color-heading-table-dark);
+  }
+}
+
+/* =========================
+   ☀️ Tema Light
+   ========================= */
+[data-theme="light"] {
+  --color-bg: var(--color-bg-light);
+  --color-text: var(--color-text-light);
+  --color-nav: var(--color-nav-light);
+  --color-input: var(--color-input-light);
+  --color-rest: var(--color-rest-light);
+  --color-finish: var(--color-finish-light);
+  --color-remove: var(--color-remove-light);
+  --color-heading-table: var(--color-heading-table-light);
+}
+
+/* =========================
+   🌙 Tema Dark
+   ========================= */
+[data-theme="dark"] {
+  --color-bg: var(--color-bg-dark);
+  --color-text: var(--color-text-dark);
+  --color-nav: var(--color-nav-dark);
+  --color-input: var(--color-input-dark);
+  --color-rest: var(--color-rest-dark);
+  --color-finish: var(--color-finish-dark);
+  --color-remove: var(--color-remove-dark);
+  --color-heading-table: var(--color-heading-table-dark);
+}
